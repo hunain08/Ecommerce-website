@@ -2,6 +2,7 @@
 
 import React from 'react';
 import FormInput from "./form";
+import CustomButton from '../signandsignuppage/cusrom-button'
 class Signin extends React.Component {
     constructor(props) {
         super(props);
@@ -40,7 +41,7 @@ class Signin extends React.Component {
                         onChange={this.handleChange}
                         required
                     />
-                    <input type='submit' value='Sign-In' />
+                    <CustomButton type='submit'>Sign In</CustomButton>
                 </form>
             </div>
         );
