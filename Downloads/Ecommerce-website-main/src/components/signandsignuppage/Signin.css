@@ -1,0 +1,10 @@
+.sign-in-and-sign-up{
+    width: 380px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+}
